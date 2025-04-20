@@ -121,7 +121,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
             }
 
             //powerups
-            int randNum = (int)(Math.random()*3000)+1;
+            int randNum = (int)(Math.random()*8000)+1;
             if((randNum == 11 || randNum == 22) && powerup1 == null) {
                 powerup1 = new PowerupOne((int)(Math.random()*800)+1, 0, 30, 30, 1);
 
